@@ -25,10 +25,9 @@ namespace BubbleSort
                         int temp = list[i - 1];
                         list[i - 1] = list[i];
                         list[i] = temp;
-                        newN = i;
                     }
                 }
-                n = newN;
+                n--;
             }
             return list;
         }
